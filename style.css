@@ -1,0 +1,257 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.Intro_page{
+    background-color: #946A62;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    height: 372px;
+    background-image: url(./ricardo-gomez-angel-iegoK2yH3OA-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.header_box{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 70%;
+    color: 352928;
+    font-size: 1.2em;
+    /* background-color: aqua; */
+    padding: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    max-width: 55%;
+}
+
+.body_box_one{
+    display: flex;
+    width: 70%;
+    background-color: #FE5335;
+    gap: 2rem;
+    padding: 1.5rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    border-radius: 30px;
+    max-width: 55%;
+    color: #352928;
+}
+
+.body_box_two{
+    width: 70%;
+    padding: 1.5rem;
+    /* max-width: 1000px; */
+}
+
+.body_first_page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.body_box_two{
+    background-color: #FE5335;
+    margin-top: 1rem;
+    border-radius: 30px;
+    margin-bottom: 1rem;
+    max-width: 55%;
+    color: #352928;
+}
+
+.my_img{
+    height: 6em;
+    width: 6em;
+    border-radius: 50%;
+}
+
+button{
+    height: 3em;
+    width: 10em;
+    background-color: #FE5433;
+    border-radius: 15px;
+}
+
+.Skills_page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #99423F;
+    gap: 2rem;
+}
+
+.skills{
+    height: 80%;
+    width: 30%;
+    background-color: #946A62;
+    padding: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 15px;
+    max-width: 25%;
+    color: #352928;
+}
+
+.My_EH{
+    width: 30%;
+    background-color: #946A62;
+    padding: 1.5rem;
+    border-radius: 15px;
+    max-width: 25%;
+    color: #352928;
+}
+
+.Experience_page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: #946A62;
+}
+
+.Experience_one{
+    padding: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: #FE5335;
+    border-radius: 15px;
+    max-width: 25%;
+    color: #352928;
+}
+
+.Experience_two{
+    padding: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: #FE5335;
+    border-radius: 15px;
+    max-width: 25%;
+    color: #352928;
+}
+
+.footers{
+    display: flex;
+    justify-content: center;
+    background-color: bisque;
+    padding: 2rem;
+    font-size: 1.5rem;
+    gap: 1.5rem;
+}
+
+
+@media (max-width: 700px){
+
+    .header{
+        background-image: none;
+    }
+
+    .Intro_page{
+        background-image: url(./ricardo-gomez-angel-iegoK2yH3OA-unsplash.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        
+    }
+
+    .header_box{
+        display: none;
+        height: 0%;
+    }
+
+    .header{
+        height: 0%;
+    }
+
+    .my_img{
+        height: 4em;
+        width: 4em;
+        border-radius: 50%;
+
+    }
+
+
+    .body_box_one{
+        display: flex;
+        width: 70%;
+        /* background-color: blue; */
+        gap: 2rem;
+        padding: 1.5rem;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        border-radius: 30px;
+        max-width: 75%;
+    }
+
+    .body_box_two{
+        /* background-color: yellow; */
+        margin-top: 1rem;
+        border-radius: 30px;
+        margin-bottom: 1rem;
+        max-width: 75%;
+    }
+    
+    
+    .Skills_page{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        background-color: #99423F;
+        gap: 0.5rem;  
+    }
+
+    .skills{
+        height: 80%;
+        width: 75%;
+        /* background-color: aquamarine; */
+        padding: 1.5rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        border-radius: 15px;
+        max-width: 80%;
+}
+
+    .My_EH{
+        width: 75%;
+        /* background-color: aquamarine; */
+        padding: 1.5rem;
+        border-radius: 15px;
+        max-width: 80%;
+        margin-bottom: 1rem;
+    }
+
+
+    .Experience_page{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .Experience_one{
+        padding: 1.5rem;
+        margin-top: 1rem;
+        /* background-color: hotpink; */
+        border-radius: 15px;
+        width: 75%;
+        max-width: 80%;
+    }
+
+    .Experience_two{
+        padding: 1.5rem;
+        margin-bottom: 1rem;
+        /* background-color: hotpink; */
+        border-radius: 15px;
+        max-width: 75%;
+    }
+
+    }
